@@ -1,6 +1,1 @@
-release {
-    keyAlias 'hopechart'
-    keyPassword 'hopechartandroid'
-    storeFile file('../signapk/hopechart_ac8257')
-    storePassword 'hopechartandroid'
-}
+这是一个杂七杂八的仓库
