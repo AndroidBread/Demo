@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_fragment_test"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/test1Fragment"
+        android:name="com.duyh.navigationtest.Test1Fragment"
+        android:label="Test1Fragment" >
+        <action
+            android:id="@+id/action_test1Fragment_to_test11Fragment"
+            app:destination="@id/test11Fragment" />
+        <action
+            android:id="@+id/action_test1Fragment_to_test13Fragment"
+            app:destination="@id/test13Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.duyh.navigationtest.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_test1Fragment"
+            app:destination="@id/test1Fragment"
+            app:restoreState="true"
+            app:popUpToSaveState="true"
+            app:popUpTo="@id/test2Fragment"/>
+        <action
+            android:id="@+id/action_mainFragment_to_test3Fragment"
+            app:destination="@id/test3Fragment"
+            app:restoreState="true"
+            app:popUpToSaveState="true"
+            app:popUpTo="@id/mainFragment"/>
+        <action
+            android:id="@+id/action_mainFragment_to_test2Fragment"
+            app:destination="@id/test2Fragment"
+            app:restoreState="true"
+            app:popUpToSaveState="true"
+            app:popUpTo="@id/mainFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/test2Fragment"
+        android:name="com.duyh.navigationtest.Test2Fragment"
+        android:label="Test2Fragment" />
+    <fragment
+        android:id="@+id/test3Fragment"
+        android:name="com.duyh.navigationtest.Test3Fragment"
+        android:label="Test3Fragment" />
+    <fragment
+        android:id="@+id/test11Fragment"
+        android:name="com.duyh.navigationtest.Test11Fragment"
+        android:label="Test11Fragment" >
+        <action
+            android:id="@+id/action_test11Fragment_to_test12Fragment"
+            app:destination="@id/test12Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/test12Fragment"
+        android:name="com.duyh.navigationtest.Test12Fragment"
+        android:label="Test12Fragment" >
+        <argument
+            android:name="content"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="empty" />
+    </fragment>
+    <fragment
+        android:id="@+id/test13Fragment"
+        android:name="com.duyh.navigationtest.Test13Fragment"
+        android:label="Test13Fragment" />
+    <action
+        android:id="@+id/action_global_mainFragment2"
+        app:destination="@id/mainFragment"
+        app:popUpTo="@id/mainFragment"
+        app:popUpToInclusive="true" />
+</navigation>

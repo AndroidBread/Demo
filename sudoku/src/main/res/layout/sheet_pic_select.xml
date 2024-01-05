@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/shape_sheet_bg"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_select_pic"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="@string/pick_DICM"
+        android:textColor="#378cff"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="1dp"
+        android:background="#378cff" />
+
+    <TextView
+        android:id="@+id/tv_take_photo"
+        android:text="@string/take_photo"
+        android:gravity="center"
+        android:textColor="#378cff"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#378cff" />
+
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:text="@string/cancel"
+        android:gravity="center"
+        android:textColor="#378cff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+</LinearLayout>

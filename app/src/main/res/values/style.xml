@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <style name="BaseAppTheme" parent="android:Theme.Material">-->
+<!--        &lt;!&ndash; enable window content transitions &ndash;&gt;-->
+<!--        <item name="android:windowActivityTransitions">true</item>-->
+
+<!--        &lt;!&ndash; specify enter and exit transitions &ndash;&gt;-->
+<!--        <item name="android:windowEnterTransition">@transition/activity_explode</item>-->
+<!--        <item name="android:windowExitTransition">@transition/activity_explode</item>-->
+
+<!--        &lt;!&ndash; specify shared element transitions &ndash;&gt;-->
+<!--        <item name="android:windowSharedElementEnterTransition">-->
+<!--            @transition/change_image_transform</item>-->
+<!--        <item name="android:windowSharedElementExitTransition">-->
+<!--            @transition/change_image_transform</item>-->
+<!--    </style>-->
+
+
+    <style name="activityInnerAnim">
+        <item name="android:windowEnterTransition">@transition/activity_explode</item>
+        <item name="android:windowExitTransition">@transition/activity_explode</item>
+    </style>
+</resources>

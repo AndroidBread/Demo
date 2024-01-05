@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#88000000"
+        tools:context=".CustomVideoActivity">
+
+        <com.aliyun.player.alivcplayerexpand.widget.AliyunRenderView
+            android:id="@+id/arv_custom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alivc_common_height_group_200"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_player"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginBottom="7dp"
+            app:layout_constraintBottom_toBottomOf="@+id/arv_custom"
+            app:layout_constraintStart_toStartOf="@+id/arv_custom"
+            app:srcCompat="@drawable/alivc_playstate_play" />
+
+        <ImageView
+            android:id="@+id/iv_screen_mode"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="7dp"
+            app:layout_constraintBottom_toBottomOf="@+id/arv_custom"
+            app:layout_constraintEnd_toEndOf="@+id/arv_custom"
+            app:srcCompat="@drawable/alivc_screen_mode_large" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

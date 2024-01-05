@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.aliyun.ui.view.AliyunLiveShiftPlayerView
+            android:id="@+id/live_shift_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+        </com.aliyun.ui.view.AliyunLiveShiftPlayerView>
+
+        <TextView
+            android:id="@+id/live_shift_player_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/alivc_common_margin_20"
+            android:textColor="@color/alivc_common_white"
+            android:textSize="@dimen/alivc_common_font_18" />
+
+        <EditText
+            android:id="@+id/edit_input"
+            android:hint="直播推流地址"
+            android:inputType="textUri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_change"
+            android:text="修改地址"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</layout>

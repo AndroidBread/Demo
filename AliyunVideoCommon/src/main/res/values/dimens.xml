@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <dimen name="alivc_common_alert_dialog_w">270dp</dimen>
+    <dimen name="alivc_common_alert_dialog_h">178dp</dimen>
+    <dimen name="alivc_common_alert_dialog_h_no_icon">128dp</dimen>
+    <!--控件、图片(ImageView)的宽度-->
+    <dimen name="alivc_common_width_group_82">82dp</dimen>
+    <dimen name="alivc_common_width_tv_111">111dp</dimen>
+    <dimen name="alivc_common_width_icon_120">120dp</dimen>
+    <!--end-->
+
+
+
+    <!--控件、图片(ImageView)的高度-->
+
+    <dimen name="alivc_common_height_icon_15">15dp</dimen>
+    <dimen name="alivc_common_height_icon_24">24dp</dimen>
+    <dimen name="alivc_common_height_tittle_48">48dp</dimen>
+    <dimen name="alivc_common_height_tv_50">50dp</dimen>
+    <dimen name="alivc_common_height_group_15">15dp</dimen>
+    <dimen name="alivc_common_height_group_30">30dp</dimen>
+    <dimen name="alivc_common_height_group_38">38dp</dimen>
+    <dimen name="alivc_common_height_group_40">40dp</dimen>
+    <dimen name="alivc_common_height_group_45">45dp</dimen>
+    <dimen name="alivc_common_height_group_50">50dp</dimen>
+    <dimen name="alivc_common_height_group_60">60dp</dimen>
+    <dimen name="alivc_common_height_group_68">60dp</dimen>
+    <dimen name="alivc_common_height_group_80">80dp</dimen>
+    <dimen name="alivc_common_height_group_100">100dp</dimen>
+    <dimen name="alivc_common_height_group_160">160dp</dimen>
+    <dimen name="alivc_common_height_group_200">200dp</dimen>
+    <dimen name="alivc_common_height_group_240">240dp</dimen>
+
+    <!--end-->
+
+
+    <!--size,宽高相等时使用，即正方形的控件、图片(ImageView)-->
+    <dimen name="alivc_common_size_icon_5">5dp</dimen>
+    <dimen name="alivc_common_size_icon_42">42dp</dimen>
+    <dimen name="alivc_common_size_progress_28">28dp</dimen>
+    <dimen name="alivc_common_size_group_40">40dp</dimen>
+
+    <!--end-->
+
+
+    <!--padding值-->
+    <dimen name="alivc_common_padding_2">2dp</dimen>
+    <dimen name="alivc_common_padding_4">4dp</dimen>
+    <dimen name="alivc_common_padding_5">5dp</dimen>
+    <dimen name="alivc_common_padding_6">6dp</dimen>
+    <dimen name="alivc_common_padding_8">8dp</dimen>
+    <dimen name="alivc_common_padding_10">10dp</dimen>
+    <dimen name="alivc_common_padding_12">12dp</dimen>
+    <dimen name="alivc_common_padding_15">15dp</dimen>
+    <dimen name="alivc_common_padding_16">16dp</dimen>
+    <dimen name="alivc_common_padding_20">20dp</dimen>
+    <dimen name="alivc_common_padding_25">25dp</dimen>
+    <dimen name="alivc_common_padding_32">32dp</dimen>
+    <!--end-->
+
+
+    <!--margin值-->
+    <dimen name="alivc_common_margin_2">2dp</dimen>
+    <dimen name="alivc_common_margin_3">3dp</dimen>
+    <dimen name="alivc_common_margin_4">4dp</dimen>
+    <dimen name="alivc_common_margin_5">5dp</dimen>
+    <dimen name="alivc_common_margin_6">6dp</dimen>
+    <dimen name="alivc_common_margin_8">8dp</dimen>
+    <dimen name="alivc_common_margin_9">9dp</dimen>
+    <dimen name="alivc_common_margin_10">10dp</dimen>
+    <dimen name="alivc_common_margin_12">12dp</dimen>
+    <dimen name="alivc_common_margin_15">15dp</dimen>
+    <dimen name="alivc_common_margin_16">16dp</dimen>
+    <dimen name="alivc_common_margin_18">18dp</dimen>
+    <dimen name="alivc_common_margin_20">20dp</dimen>
+    <dimen name="alivc_common_margin_25">25dp</dimen>
+    <dimen name="alivc_common_margin_30">30dp</dimen>
+    <dimen name="alivc_common_margin_34">34dp</dimen>
+    <dimen name="alivc_common_margin_38">38dp</dimen>
+    <dimen name="alivc_common_margin_40">40dp</dimen>
+    <dimen name="alivc_common_margin_60">60dp</dimen>
+    <dimen name="alivc_common_margin_100">100dp</dimen>
+    <!--end-->
+
+
+    <!--基准线，主要为与边界距离-->
+    <dimen name="alivc_common_keyline_32">32dp</dimen>
+    <!--end-->
+
+
+    <!--圆、圆角的半径-->
+    <dimen name="alivc_common_radius_2">2dp</dimen>
+    <dimen name="alivc_common_radius_4">4dp</dimen>
+    <dimen name="alivc_common_radius_5">5dp</dimen>
+    <dimen name="alivc_common_radius_6">6dp</dimen>
+    <dimen name="alivc_common_radius_12">12dp</dimen>
+    <dimen name="alivc_common_radius_20">20dp</dimen>
+    <!--end-->
+
+
+    <!--线的宽度-->
+    <dimen name="alivc_common_line_1px">1px</dimen>
+    <dimen name="alivc_common_line_1dp">1dp</dimen>
+    <dimen name="alivc_common_line_3dp">3dp</dimen>
+    <!--end-->
+
+
+    <!--字体的大小-->
+    <dimen name="alivc_common_font_10">10sp</dimen>
+    <dimen name="alivc_common_font_12">12sp</dimen>
+    <dimen name="alivc_common_font_14">14sp</dimen>
+    <dimen name="alivc_common_font_13">13sp</dimen>
+    <dimen name="alivc_common_font_15">15sp</dimen>
+    <dimen name="alivc_common_font_16">16sp</dimen>
+    <dimen name="alivc_common_font_17">17sp</dimen>
+    <dimen name="alivc_common_font_18">18sp</dimen>
+    <dimen name="alivc_common_font_29">29sp</dimen>
+    <!--end-->
+
+</resources>

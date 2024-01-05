@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aliyun.svideo.common" >
+4
+5    <uses-sdk android:minSdkVersion="23" />
+5-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml
+6    <!-- 网络/网络状态 -->
+7    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+7-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:5:5-79
+7-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:5:22-76
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:6:5-67
+8-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:6:22-64
+9    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+9-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:7:5-75
+9-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:7:22-73
+10    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+10-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:8:5-75
+10-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:8:22-73
+11    <!-- Sdcard读写权限 -->
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:10:5-81
+12-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:10:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:11:5-80
+13-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:11:22-77
+14    <!-- 摄像头录音权限 -->
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:13:5-65
+15-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:13:22-62
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:14:5-71
+16-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:14:22-68
+17    <!-- 电话状态权限 -->
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:16:5-75
+18-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:16:22-72
+19    <!-- 蓝牙权限 -->
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:18:5-68
+20-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:18:22-65
+21    <!-- 自动更新URI跳转安装时需要 -->
+22    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+22-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:20:5-83
+22-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:20:22-80
+23
+24    <application>
+24-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:23:5-35:19
+25
+26        <!-- FileProvider配置访问路径，适配7.0及其以上 -->
+27        <provider
+27-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:25:9-34:20
+28            android:name="androidx.core.content.FileProvider"
+28-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:26:13-62
+29            android:authorities="${applicationId}.fileprovider"
+29-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:27:13-64
+30            android:banner="@string/alivc_common_cancel"
+30-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:30:13-57
+31            android:exported="false"
+31-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:28:13-37
+32            android:grantUriPermissions="true" >
+32-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:29:13-47
+33            <meta-data
+33-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:31:13-33:57
+34                android:name="android.support.FILE_PROVIDER_PATHS"
+34-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:32:17-67
+35                android:resource="@xml/provider_paths" />
+35-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AliyunVideoCommon/src/main/AndroidManifest.xml:33:17-55
+36        </provider>
+37    </application>
+38
+39</manifest>
