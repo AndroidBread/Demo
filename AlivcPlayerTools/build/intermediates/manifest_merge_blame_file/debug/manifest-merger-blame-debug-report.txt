@@ -3,6 +3,6 @@
 3    package="com.aliyun.player.alivcplayerexpand" >
 4
 5    <uses-sdk android:minSdkVersion="23" />
-5-->/Users/moongod/AndroidStudioProjects/demo/video_demo/AlivcPlayerTools/src/main/AndroidManifest.xml
+5-->/Users/moongod/AndroidStudioProjects/demo/Demo/AlivcPlayerTools/src/main/AndroidManifest.xml
 6
 7</manifest>
