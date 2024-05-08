@@ -145,6 +145,7 @@ class MainActivity : AppCompatActivity() {
                         super.onMediaMetadataChanged(mediaMetadata)
                         val duration = mediaController?.duration?:0
                         Log.e("player", "onMediaMetadataChanged: $duration")
+                        Log.e("player", "onMediaMetadataChanged: ${mediaMetadata.title}")
                         if(duration < 0){
                             return
                         }

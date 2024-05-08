@@ -1,6 +1,7 @@
 package com.duyh.navigationtest
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +10,10 @@ import androidx.navigation.fragment.findNavController
 import com.duyh.navigationtest.databinding.FragmentTest1Binding
 
 class Test1Fragment: Fragment() {
+
+    companion object{
+        val TAG: String = Test1Fragment::class.java.simpleName
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -37,6 +42,11 @@ class Test1Fragment: Fragment() {
 
     fun back(){
         findNavController().popBackStack()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.e(TAG, "onDestroy: $TAG")
     }
 
 }
